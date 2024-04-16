@@ -12,3 +12,4 @@ C:\Pemrograman\C#\Test\ParkingSystem\ParkingSystem\obj\Debug\net6.0\refint\Parki
 C:\Pemrograman\C#\Test\ParkingSystem\ParkingSystem\obj\Debug\net6.0\ParkingSystem.pdb
 C:\Pemrograman\C#\Test\ParkingSystem\ParkingSystem\obj\Debug\net6.0\ParkingSystem.genruntimeconfig.cache
 C:\Pemrograman\C#\Test\ParkingSystem\ParkingSystem\obj\Debug\net6.0\ref\ParkingSystem.dll
+C:\Pemrograman\C#\Test\ParkingSystem\ParkingSystem\obj\Debug\net6.0\ParkingSystem.sourcelink.json

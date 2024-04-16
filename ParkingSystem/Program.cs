@@ -9,8 +9,8 @@ class Program
 
         while (true)
         {
-            string input = Console.ReadLine();
             Console.Write("$ ");
+            string input = Console.ReadLine();
             string[] tokens = input.Split(' ');
 
             switch (tokens[0])
@@ -62,6 +62,66 @@ class Program
                     string vehicleType = tokens[1];
                     int count = parkingManager.CountVehiclesByType(vehicleType);
                     Console.WriteLine(count);
+                    break;
+                
+                case "registration_numbers_for_vehicles_with_ood_plate":
+                    if (parkingManager == null)
+                    {
+                        Console.WriteLine("Please create parking lot first");
+                        break;
+                    }
+                    List<string> oddPlateRegistrationNumbers = parkingManager.GetOddNumberPlate();
+                    Console.WriteLine(string.Join(", ", oddPlateRegistrationNumbers));
+                    break;
+                
+                case "registration_numbers_for_vehicles_with_event_plate":
+                    if (parkingManager == null)
+                    {
+                        Console.WriteLine("Please create parking lot first");
+                        break;
+                    }
+                    List<string> eventPlateRegistrationNumbers = parkingManager.GetEventNumberPlate();
+                    Console.WriteLine(string.Join(", ", eventPlateRegistrationNumbers));
+                    break;
+
+                case "registration_numbers_for_vehicles_with_colour":
+                    if (parkingManager == null)
+                    {
+                        Console.WriteLine("Please create parking lot first");
+                        break;
+                    }
+                    string colorToSearch = tokens[1];
+                    List<string> registrationNumbersForColor = parkingManager.GetNumberPlateWithColour(colorToSearch);
+                    Console.WriteLine(string.Join(", ", registrationNumbersForColor));
+                    break;
+                
+                case "slot_numbers_for_vehicles_with_colour":
+                    if (parkingManager == null)
+                    {
+                        Console.WriteLine("Please create parking lot first");
+                        break;
+                    }
+                    string colorSlot = tokens[1];
+                    List<int> slotNumberwithColour = parkingManager.GetSlotNumberWithColour(colorSlot);
+                    Console.WriteLine(string.Join(", ", slotNumberwithColour));
+                    break;
+                    
+                case "slot_number_for_registration_number":
+                    if (parkingManager == null)
+                    {
+                        Console.WriteLine("Please create parking lot first");
+                        break;
+                    }
+                    string regNumber = tokens[1];
+                    int slotNumberwithRegNumber = parkingManager.GetSlotNumberWithRegistrationNumber(regNumber);
+                    if (slotNumberwithRegNumber != -1)
+                    {
+                        Console.WriteLine(slotNumberwithRegNumber);
+                    }
+                    else
+                    {
+                        Console.WriteLine("Not found");
+                    }
                     break;
 
                 case "exit":
