@@ -1,0 +1,14 @@
+C:\Pemrograman\C#\Test\ParkingSystem\ParkingSystem\bin\Debug\net6.0\ParkingSystem.exe
+C:\Pemrograman\C#\Test\ParkingSystem\ParkingSystem\bin\Debug\net6.0\ParkingSystem.deps.json
+C:\Pemrograman\C#\Test\ParkingSystem\ParkingSystem\bin\Debug\net6.0\ParkingSystem.runtimeconfig.json
+C:\Pemrograman\C#\Test\ParkingSystem\ParkingSystem\bin\Debug\net6.0\ParkingSystem.dll
+C:\Pemrograman\C#\Test\ParkingSystem\ParkingSystem\bin\Debug\net6.0\ParkingSystem.pdb
+C:\Pemrograman\C#\Test\ParkingSystem\ParkingSystem\obj\Debug\net6.0\ParkingSystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Pemrograman\C#\Test\ParkingSystem\ParkingSystem\obj\Debug\net6.0\ParkingSystem.AssemblyInfoInputs.cache
+C:\Pemrograman\C#\Test\ParkingSystem\ParkingSystem\obj\Debug\net6.0\ParkingSystem.AssemblyInfo.cs
+C:\Pemrograman\C#\Test\ParkingSystem\ParkingSystem\obj\Debug\net6.0\ParkingSystem.csproj.CoreCompileInputs.cache
+C:\Pemrograman\C#\Test\ParkingSystem\ParkingSystem\obj\Debug\net6.0\ParkingSystem.dll
+C:\Pemrograman\C#\Test\ParkingSystem\ParkingSystem\obj\Debug\net6.0\refint\ParkingSystem.dll
+C:\Pemrograman\C#\Test\ParkingSystem\ParkingSystem\obj\Debug\net6.0\ParkingSystem.pdb
+C:\Pemrograman\C#\Test\ParkingSystem\ParkingSystem\obj\Debug\net6.0\ParkingSystem.genruntimeconfig.cache
+C:\Pemrograman\C#\Test\ParkingSystem\ParkingSystem\obj\Debug\net6.0\ref\ParkingSystem.dll
